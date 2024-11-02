@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREA10</title>
+    <style>
+        .contenedor{
+            display: grid;
+            grid-template-areas: "uno dos dos tres"
+                                "uno cinco siete cuatro"
+                                "uno cinco siete cuatro"
+                                "uno ocho seis cuatro"
+                                "uno ocho seis cuatro";
+            grid-template-columns: 3fr 2fr 2fr 3fr;
+            
+            gap: 10px;
+            border: 1px solid gray;
+            padding: 8px;
+        }
+
+        div{
+            text-align: center;
+            
+        }
+
+        .uno{
+            background-color: lightyellow;
+            grid-area: uno;
+        }
+        
+        .dos{
+            background-color: lightcyan;
+            grid-area: dos;
+        }
+
+        .tres{
+            background-color: lightgray;
+            grid-area: tres;
+        }
+
+        .cuatro{
+            background-color: lightpink;
+            grid-area: cuatro;
+        }
+
+        .cinco{
+            background-color: lightgreen;
+            grid-area: cinco;
+        }
+
+        .seis{
+            background-color: lightseagreen;
+            grid-area: seis;
+        }
+
+        .siete{
+            background-color: lightsalmon;
+            grid-area: siete;
+        }
+
+        .ocho{
+            background-color: lightskyblue;
+            grid-area: ocho;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="uno">
+            <h2>IMAGEN</h2>
+        </div>
+        <div class="dos">
+            <h1>TITULO</h1>
+        </div>
+        <div class="tres">
+            <h2>FECHA</h2>
+        </div>
+        <div class="cuatro">
+            <h2>ADICIONAL</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit rem aliquid ab cupiditate officia, modi doloribus ipsum eos culpa laudantium voluptates quo quasi aut porro quidem dolor itaque illum. Laborum sapiente sed nesciunt, magnam voluptatem tempora alias explicabo rem consequatur odit aliquam porro incidunt assumenda.</p>
+        </div>
+        <div class="cinco">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae rem reprehenderit, eum dolores sed iusto? Corporis quod laborum adipisci facere?</p>
+        </div>
+        <div class="seis">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae dolorum eum amet porro vitae laudantium libero corrupti, totam architecto.</p>
+        </div>
+        <div class="siete">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis amet facilis dicta expedita non deserunt temporibus excepturi minus distinctio quo!</p>
+        </div>
+        <div class="ocho">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis vel maxime atque aut quas, iste aliquid laboriosam voluptas commodi officia?</p>
+        </div>
+    </div>
+</body>
+</html>
